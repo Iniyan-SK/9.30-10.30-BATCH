@@ -1,0 +1,26 @@
+Forms are fundamental for collecting information from users, such as login details, search queries, or user feedback. 
+The user input is most often sent to a server for processing. 
+The HTML <form> element is used to create an HTML form for user input 
+<label> Tag 
+The <label> tag is used to define a label for an <input>, <select>, <textarea>, or <button> element. It helps users understand what 
+information should be entered into the form field. 
+for: Specifies which form element the label is associated with. The value of the for attribute must match the id attribute of the 
+form element it is labeling. 
+The <input> tag is used to create various types of interactive controls for forms, where users can enter data or make selections 
+
+Action - The action attribute defines the action to be performed when the form is submitted. Usually, the form data is sent to a 
+file on the server when the user clicks on the submit button 
+name - The name attribute specifies the name of an <input> element. The name attribute is used to reference elements in a 
+JavaScript, or to reference form data after a form is submitted.  
+Note: Only form elements with a name attribute will have their values passed when submitting a form 
+value - In the context of the <input> tag in HTML, the value attribute specifies the initial value of the input field. Depending on the 
+type of <input> element, the value attribute behaves differently 
+For text inputs (type="text", type="password", type="email", etc.): 
+The value attribute sets the initial value displayed in the input field when the page loads. Users can overwrite this value by typing 
+into the field 
+For radio buttons (type="radio") and checkboxes (type="checkbox"): 
+The value attribute specifies the value that gets submitted to the server when the radio button or checkbox is checked and the 
+form is submitted. It helps identify which option the user has chosen. 
+ID - The id attribute in <input> tags uniquely identifies elements within HTML, crucial for linking with <label> tags and targeting with 
+JavaScript for interactive functionality. Unique id values prevent conflicts and ensure proper document structure and scripting  
+size, maxlength, readonly, disabled, placeholder & required attribute in input tag 
